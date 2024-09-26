@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Bootstrap Component Demos</h1>
+
+    <!-- Navigation Tabs -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="table-tab" data-toggle="tab" href="#table" role="tab" aria-controls="table" aria-selected="true">Table</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="image-tab" data-toggle="tab" href="#image" role="tab" aria-controls="image" aria-selected="false">Image</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="button-tab" data-toggle="tab" href="#button" role="tab" aria-controls="button" aria-selected="false">Buttons</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pagination-tab" data-toggle="tab" href="#pagination" role="tab" aria-controls="pagination" aria-selected="false">Pagination</a>
+        </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content mt-4" id="myTabContent">
+        <!-- Bootstrap Table Demo -->
+        <div class="tab-pane fade show active" id="table" role="tabpanel" aria-labelledby="table-tab">
+            <h2>Bootstrap Table</h2>
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>@johndoe</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Jane</td>
+                        <td>Smith</td>
+                        <td>@janesmith</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Bootstrap Image Demo -->
+        <div class="tab-pane fade" id="image" role="tabpanel" aria-labelledby="image-tab">
+            <h2>Bootstrap Image</h2>
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
+        </div>
+
+        <!-- Bootstrap Button and Button Group Demo -->
+        <div class="tab-pane fade" id="button" role="tabpanel" aria-labelledby="button-tab">
+            <h2>Bootstrap Buttons</h2>
+            <button type="button" class="btn btn-primary">Primary Button</button>
+            <button type="button" class="btn btn-secondary">Secondary Button</button>
+            
+            <h2 class="mt-5">Bootstrap Button Group</h2>
+            <div class="btn-group" role="group" aria-label="Button group example">
+                <button type="button" class="btn btn-danger">Left</button>
+                <button type="button" class="btn btn-warning">Middle</button>
+                <button type="button" class="btn btn-success">Right</button>
+            </div>
+        </div>
+
+        <!-- Bootstrap Pagination Demo -->
+        <div class="tab-pane fade" id="pagination" role="tabpanel" aria-labelledby="pagination-tab">
+            <h2>Bootstrap Pagination</h2>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
